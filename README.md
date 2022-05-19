@@ -1,2 +1,5 @@
-# Artist-website-Boiler-Plate
-A BoilerPlate for Javascript/React website for artists displaying their work.
+# Artist-Website-Boiler-Plate
+
+A Boiler plate using Javascript/React for artists to use as a website, displaying their work.
+
+
