@@ -1,12 +1,13 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 
+import Exhibitions from './Exhibitions/Exhibitions'
+
 function App() {
   return (
     <div className="app">
-      <Header />
       <Routes>
-        <Route path="/" element={} />
+        <Route path="/" element={ <Exhibitions/>}/>
       </Routes>
     </div>
   )
