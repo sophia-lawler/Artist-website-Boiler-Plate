@@ -5,5 +5,6 @@ module.exports = {
 }
 
 function getShows(db = connection) {
+  console.log('hitting db function')
   return db('shows').select()
 }

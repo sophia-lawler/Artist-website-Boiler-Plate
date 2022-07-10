@@ -1,8 +1,7 @@
 const express = require('express')
 const server = express()
 
-const port = process.env.PORT || 3000
-console.log(port)
+const port = 3000
 
 server.listen(port, function () {
   // eslint-disable-next-line no-console

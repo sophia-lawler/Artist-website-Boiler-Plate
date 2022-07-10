@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom'
 import Exhibitions from './Exhibitions/Exhibitions'
 
 function App() {
+  console.log('hitting app')
   return (
     <div className="app">
       <Routes>

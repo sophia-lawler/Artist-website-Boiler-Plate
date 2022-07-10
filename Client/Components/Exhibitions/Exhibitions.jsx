@@ -5,12 +5,11 @@ import Exhiibition from './Exhibition'
 import { getShows } from '../../api/showApi'
 
 
-function ProductList() {
+function Exhibitions() {
   const [shows, setShows] = useState(null)
   const [loading, setLoading] = useState(true)
   useEffect(() => {
     setLoading(true)
-   
       getShows()
         .then((data) => {
           setShows(data.body)
@@ -45,4 +44,4 @@ function ProductList() {
   )
 }
 
-export default ProductList
+export default Exhibitions
